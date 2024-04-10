@@ -1,4 +1,6 @@
 This is ByteDiggerJava, a malware detector developed entirely be me in Java.
+The first version of this project was coded in C, but it wasn't user-friendly, it could scan only one path at a time and it was also resctricted to the use of a limited range of data.
+So, I migrated the project in Java and I expanded its functionalities.
 This malware detector uses, to report malicious files in the mass storage directory, the lists of MD5 checksums shared by VirusShare (https://virusshare.com/hashes).
 Every MD5 hash in every file .txt corresponds to the MD5 checksum of one of the various viruses found, analyzed and shared by VirusShare.
 As you can see in the link above, there are more than 400 hash lists shared by VirusShare.
