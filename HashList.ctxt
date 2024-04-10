@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=HashList
+comment1.params=listName
+comment1.target=HashList(java.lang.String)
+comment2.params=
+comment2.target=HashList()
+comment3.params=hash\ fileAbsolutePath
+comment3.target=int\ compareFileHashToHashList(java.lang.String,\ java.lang.String)
+comment4.params=listName
+comment4.target=void\ setListName(java.lang.String)
+comment5.params=line\ hashListPath
+comment5.target=void\ printLineInHashList(java.lang.String,\ java.lang.String)
+numComments=6

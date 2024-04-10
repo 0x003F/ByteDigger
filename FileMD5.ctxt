@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=FileMD5
+comment1.params=
+comment1.target=FileMD5()
+comment2.params=bytes
+comment2.target=java.lang.String\ fromBytesToHex(byte[])
+comment3.params=filePath
+comment3.target=java.lang.String\ getMD5OfFile(java.lang.String)
+numComments=4

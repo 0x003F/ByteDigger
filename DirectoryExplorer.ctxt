@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DirectoryExplorer
+comment1.params=directory
+comment1.target=int\ exploreDirectory(java.io.File)
+comment2.params=referenceFile
+comment2.target=boolean\ FileIsEXEFile(java.io.File)
+numComments=3
