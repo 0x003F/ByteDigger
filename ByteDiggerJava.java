@@ -9,12 +9,13 @@ public class ByteDiggerJava
         final int MAIN_DIRECTORY_PATH_LENGTH=3;
         int input=-1;
 
-        System.out.println("1) Analyze the current mass storage.");
-        System.out.println("2) Add a malicious file to your blacklist.");
-        System.out.println("3) Exit.");
-
         while(input!=3)
         {
+            System.out.println("");
+            System.out.println("1) Analyze the current mass storage.");
+            System.out.println("2) Add a malicious file to your blacklist.");
+            System.out.println("3) Exit.");
+
             Scanner scanner=new Scanner(System.in);
             input=scanner.nextInt();
 
