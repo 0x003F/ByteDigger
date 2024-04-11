@@ -15,12 +15,14 @@ public class ByteDiggerJava
             System.out.println("1) Analyze the current mass storage.");
             System.out.println("2) Add a malicious file to your blacklist.");
             System.out.println("3) Exit.");
+            System.out.println("");
 
             Scanner scanner=new Scanner(System.in);
             input=scanner.nextInt();
 
             if(input==1)
             {
+                System.out.println("");
                 System.out.println("Please wait...");
                 File rootDirectory=new File(Paths.get("").toAbsolutePath().toString().substring(0, MAIN_DIRECTORY_PATH_LENGTH));
                 int finalMatchingHashes=0;
@@ -30,6 +32,7 @@ public class ByteDiggerJava
 
             if(input==2)
             {
+                System.out.println("");
                 System.out.println("Write the path of your malicious file: ");
 
                 Scanner fileScanner=new Scanner(System.in);
@@ -46,6 +49,7 @@ public class ByteDiggerJava
                     System.out.println("It wasn't possible to add your malicious file to your blacklist because it does not exist, or it may correspond to a folder or to a non-executable file.");
             }
         }
+        System.out.println("");
         System.out.println("See you soon!");
     }
 }
