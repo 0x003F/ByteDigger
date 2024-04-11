@@ -29,7 +29,7 @@ public class HashList
             {
                 if(line.equals(hash))
                 {
-                    System.out.println("The following file: "+fileAbsolutePath+" has been identified in the following list: "+listName+" at line "+nLine);
+                    System.out.println(" The following file: "+fileAbsolutePath+" has been identified in the following list: "+listName+" at line "+nLine);
                     matchingHashes++;
                 }
                 nLine++;
