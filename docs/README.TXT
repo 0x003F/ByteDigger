@@ -1,4 +1,4 @@
-This is ByteDiggerJava, a malware detector developed entirely be me in Java.
+This is ByteDigger, a malware detector developed entirely be me in Java.
 
 The first version of this project was coded in C, but it wasn't user-friendly, it could scan only one path at a time and it was also resctricted to the use of a limited range of data.
 So, I migrated the project in Java and I expanded its functionalities.
