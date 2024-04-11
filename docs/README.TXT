@@ -4,7 +4,7 @@ The first version of this project was coded in C, but it wasn't user-friendly, i
 So, I migrated the project in Java and I expanded its functionalities.
 
 This malware detector uses, to report malicious files in the mass storage directory, the lists of MD5 checksums shared by VirusShare (https://virusshare.com/hashes).
-Every MD5 hash in every file .txt corresponds to the MD5 checksum of one of the various viruses found, analyzed and shared by VirusShare.
+Every MD5 hash in every .txt file corresponds to the MD5 checksum of one of the various viruses found, analyzed and shared by VirusShare.
 
 As you can see in the link above, there are more than 400 hash lists shared by VirusShare.
 I personally downloaded and included only the fist 14 of them in the project, but, if you want to safely use my algorithm, you'll need all of them.
