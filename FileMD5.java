@@ -21,13 +21,13 @@ public class FileMD5
 
     public static String getMD5OfFile(String filePath) throws Exception
     {
-        FileInputStream fis = new FileInputStream(filePath);
-        byte[] data = new byte[fis.available()];
+        FileInputStream fis=new FileInputStream(filePath);
+        byte[] data=new byte[fis.available()];
         fis.read(data);
         fis.close();
 
-        MessageDigest md = MessageDigest.getInstance("MD5");
-        byte[] checksum = md.digest(data);
+        MessageDigest md=MessageDigest.getInstance("MD5");
+        byte[] checksum=md.digest(data);
         return fromBytesToHex(checksum);
     }
 }
